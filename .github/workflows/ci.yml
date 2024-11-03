@@ -20,9 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
-      - name: Start development server
-        run: npm run dev 
 
       - name: Run tests
         run: npm test
